@@ -1,0 +1,107 @@
+/*  Table of Contents
+    - Global Styles
+    - Page Structure
+    - Headings
+    - Navigation
+*/
+
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* -----------------------------------*/
+
+html {
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+    font-weight: 400;
+}
+
+/* -------------------------------------------*/
+/* ---------->>> PAGE STRUCTURE <<<-----------*/
+/* -------------------------------------------*/
+
+.bg{
+    width:80%;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+}
+
+/* -------------------------------------*/
+/* ---------->>> HEADINGS <<<-----------*/
+/* -------------------------------------*/
+
+.ph{ /* panel heading */
+    font-size: 15px;
+    color:#fff;
+    font-weight: 700;
+}
+
+/* ---------------------------------------*/
+/* ---------->>> NAVIGATION <<<-----------*/
+/* ---------------------------------------*/
+
+.im{
+    height:auto;
+    margin: 0 auto;
+    width:100%;
+}
+@media (max-width: 767px)and (min-width:500px) {
+    .im {
+        width:85%;
+    }
+}
+#name{
+    font-family: 'Grand Hotel', cursive;
+    color:#222;
+    width: 100%;
+}
+@media (min-width: 800px) {
+    #name {
+        width: 100%;
+    }
+}
+.ind{
+    font-size: 25px;
+    line-height: 45px;
+}
+@media (max-width: 767px) {
+    .ind {
+        font-size: 50px;
+        line-height: 80px;
+    }
+}
+@media (max-width: 650px) {
+    .ind {
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+a:link {
+    text-decoration: none;
+    color: #777;
+}
+a:visited {
+    text-decoration: none;
+    color: #777;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+a.current {
+  color:#222;
+}
